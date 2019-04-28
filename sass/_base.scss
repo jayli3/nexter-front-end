@@ -16,6 +16,10 @@ html{
 	color: $color-grey-dark-2;
 	font-weight: 300;
 	line-height: 1.6;
+
+	@include respond(I){
+		font-size: 50%;
+	}
 }
 
 
@@ -25,22 +29,13 @@ html{
 	display: grid;
 	grid-template-rows: 80vh min-content 40vw repeat(3, min-content);
 	grid-template-columns: [sidebar-start] 6rem [sidebar-end full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
-}
 
-@mixin respond($breakpoint){
-	@if($breakpoint == I){
-		@media only screen and (max-width: 75em){ @content }	//1200px
+	@include respond(II){
+		grid-template-rows: 6rem 80vh min-content 40vw repeat(3, min-content);
+		grid-template-columns: [full-start] minmax(6rem, 1fr) [center-start] repeat(8, [col-start] minmax(min-content, 14rem) [col-end]) [center-end] minmax(6rem, 1fr) [full-end];
 	}
-	@if($breakpoint == II){
-		@media only screen and (max-width: 68.75em){ @content }	//1100px
-	}
-	@if($breakpoint == III){
-		@media only screen and (max-width: 56.25em){ @content }	//900px
-	}
-	@if($breakpoint == IIII){
-		@media only screen and (max-width: 39em){ @content }	//624px
-	}
-	@if($breakpoint == V){
-		@media only screen and (max-width: 31.25em){ @content }	//500px
+
+	@include respond(III){
+		grid-template-rows: 6rem calc(100vh - 6rem) repeat(7, min-content);
 	}
 }

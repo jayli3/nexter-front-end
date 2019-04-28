@@ -1,3 +1,21 @@
+@mixin respond($breakpoint){
+	@if($breakpoint == I){
+		@media only screen and (max-width: 75em){ @content }	//1200px
+	}
+	@if($breakpoint == II){
+		@media only screen and (max-width: 62.5em){ @content }	//1000px
+	}
+	@if($breakpoint == III){
+		@media only screen and (max-width: 50em){ @content }	//800px
+	}
+	@if($breakpoint == IIII){
+		@media only screen and (max-width: 37.5em){ @content }	//600px
+	}
+	@if($breakpoint == V){
+		@media only screen and (max-width: 31.25em){ @content }	//500px
+	}
+}
+
 @import "variables";
 @import "base";
 @import "typography";

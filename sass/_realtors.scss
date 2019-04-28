@@ -7,12 +7,24 @@
 	align-items: center;
 	padding: 3rem;
 
+	@include respond(III){
+		grid-column: full-start/full-end;
+	}
+
 	&__list{
 		margin-top: 2rem;
 		display: grid;
 		grid-template-columns: repeat(2, max-content);
 		grid-gap: 5vh 1.5rem;
 		align-items: center;
+
+		@include respond(III){
+			grid-template-columns: repeat(3, max-content minmax(max-content, 16rem));
+		}
+
+		@include respond(IIII){
+			grid-template-columns: repeat(2, max-content);
+		}
 	}
 
 	&__image{
