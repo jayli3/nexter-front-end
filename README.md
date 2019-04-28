@@ -15,7 +15,7 @@ The entire layout is done with a CSS Grid, making it very simple and straight fo
 
 [![overview](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/ss01.png?raw=true "overview")](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/ss01.png?raw=true "overview")
 
-#####Code for the entire layout:
+##### Code for the entire layout:
 
 ```scss
 .container{
