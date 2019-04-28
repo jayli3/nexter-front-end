@@ -1,4 +1,33 @@
 .realtors{
 	background-color: $color-secondary;
 	grid-column: col-start 7/full-end;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+
+	&__list{
+		margin-top: 2rem;
+		display: grid;
+		grid-template-columns: repeat(2, max-content);
+		grid-gap: 5vh 1.5rem;
+		align-items: center;
+	}
+
+	&__image{
+		width: 7rem;
+		border-radius: 50%;
+		display: block;
+	}
+
+	&__details{
+		
+	}
+
+	&__sold{
+		text-transform: uppercase;
+		color: $color-grey-light-2;
+		margin-top: -3px;
+	}
 }
