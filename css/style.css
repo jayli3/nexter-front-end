@@ -436,11 +436,11 @@ html {
   width: 70%;
   margin: 3rem auto 0 auto; }
 
-.jayli3:link, .jayli3:visited {
+.jayli3n:link, .jayli3n:visited {
   color: #fff;
   text-decoration: underline;
   transition: all .2s; }
 
-.jayli3:hover {
+.jayli3n:hover {
   transform: scale(1.1);
   color: var(--color-grey-light-2); }

@@ -1,5 +1,5 @@
-# [Nexter Real Estate - Front End](https://jayli3.github.io/nexter-front-end/ "nexter-front-end")
-`Live:` https://jayli3.github.io/nexter-front-end/
+# [Nexter Real Estate - Front End](https://jayli3n.github.io/nexter-front-end/ "nexter-front-end")
+`Live:` https://jayli3n.github.io/nexter-front-end/
 
 A mockup real estate website. Front-end only.
 
@@ -13,7 +13,7 @@ A mockup real estate website. Front-end only.
 ----
 The entire layout is done with a CSS Grid, making it very simple and straight forward to position the main containers as well as making the overall page responsive with very little media queries.
 
-[![overview](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/ss01.png?raw=true "overview")](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/ss01.png?raw=true "overview")
+[![overview](https://github.com/jayli3n/nexter-front-end/blob/master/README_resources/ss01.png?raw=true "overview")](https://github.com/jayli3n/nexter-front-end/blob/master/README_resources/ss01.png?raw=true "overview")
 
 ##### Code for the entire layout:
 
@@ -43,14 +43,14 @@ grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 ```
 The `auto-fit` allows the grid items to fit into the grid dynamically.
 
-[![responsiveness demo](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/gif01.gif?raw=true "responsiveness demo")](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/gif01.gif?raw=true "responsiveness demo")
+[![responsiveness demo](https://github.com/jayli3n/nexter-front-end/blob/master/README_resources/gif01.gif?raw=true "responsiveness demo")](https://github.com/jayli3n/nexter-front-end/blob/master/README_resources/gif01.gif?raw=true "responsiveness demo")
 
 
 #### CSS Grids:
 ---
 Below is another example of using CSS Grid, this would have been very difficult to replicate without it.
 
-[![css grid demo](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/ss02.png?raw=true "css grid demo")](https://github.com/jayli3/nexter-front-end/blob/master/README_resources/ss02.png?raw=true "css grid demo")
+[![css grid demo](https://github.com/jayli3n/nexter-front-end/blob/master/README_resources/ss02.png?raw=true "css grid demo")](https://github.com/jayli3n/nexter-front-end/blob/master/README_resources/ss02.png?raw=true "css grid demo")
 
 
 
